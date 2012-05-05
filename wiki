@@ -1,5 +1,17 @@
 https://github.com/larrycai/kaiyuanbook/blob/e1ce0adcab67fd053ef3052897a74ad6c532c17f/0101pdf.jpg
 
-I will just use progit book content, chapter1 and chapter2, change how images are done, than add a chapter3 quickly to show people how easy it is to add new content.
+
+I will follow my 019-latex video style, start from something simple, then add things up.
+
+I can use 
+
+    pandoc -s
+
+to add default teplate to the output.tex, but I won't, I will just use
+
+    sed -e '/tableofcontents/r main.tex' ../pdf/template.tex >> book.tex
+
+to insert main.tex to template.tex
+
 
 
