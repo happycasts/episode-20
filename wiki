@@ -1,3 +1,7 @@
+# verbatim
+the default look is nice clean, same look for inline code and code blocks, there is no need to use
+\footnotesize or \quote with it
+
 https://github.com/larrycai/kaiyuanbook/blob/e1ce0adcab67fd053ef3052897a74ad6c532c17f/0101pdf.jpg
 
 
