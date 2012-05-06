@@ -1,3 +1,12 @@
+# img
+the default latex output for
+
+    ![caption of this figure](../figures/1.1.png)
+
+is not so perfect in that, if there is no enough space on current page, and the image is actaully placed on next page, the current page will be filled with text, which actully comes after the images, sometimes this can be a bit confusing, and now I can see why progit/template.tex has specail concern for `\img`.
+
+but I think as long as I have things like "see Figure 1-1", this should do not be a big problem.
+
 # verbatim
 the default look is nice clean, same look for inline code and code blocks, there is no need to use
 \footnotesize or \quote with it
